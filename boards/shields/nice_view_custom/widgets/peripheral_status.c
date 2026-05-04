@@ -23,11 +23,9 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #include "peripheral_status.h"
 
-LV_IMG_DECLARE(tower1);
 LV_IMG_DECLARE(wagashi);
 
 const lv_img_dsc_t *anim_imgs[] = {
-    &tower1,
     &wagashi,
 };
 
